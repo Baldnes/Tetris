@@ -123,8 +123,6 @@
                 this.timer = setInterval(() => {
                     self.flag = true
                     self.f++
-                    // 渲染帧编号
-                    document.getElementById('f').innerHTML = "帧编号：" + self.f
                     // 清屏
                     self.clear()
                     // 渲染方块
